@@ -19,11 +19,11 @@ enum Values: String {
   case Eight = "8"
   case Nine = "9"
   case Ten = "10"
-  case Eleven = "J"
-  case Twelve = "D"
-  case Thirteen = "K"
+  case Jack = "J"
+  case Queen = "D"
+  case King = "K"
   
-  static let allValues = [Ace, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Eleven, Twelve, Thirteen]
+  static let allValues = [Ace, Two, Three, Four, Five, Six, Seven, Eight, Nine, Ten, Jack, Queen, King]
   
 }
 
