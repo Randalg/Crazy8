@@ -11,7 +11,7 @@
 		5542FB5F1C9287770027A3C1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542FB5E1C9287770027A3C1 /* Card.swift */; };
 		5542FB611C9287A20027A3C1 /* Deck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542FB601C9287A20027A3C1 /* Deck.swift */; };
 		5542FB631C9289620027A3C1 /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542FB621C9289620027A3C1 /* GameManager.swift */; };
-		5542FB651C928AE50027A3C1 /* Suit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542FB641C928AE50027A3C1 /* Suit.swift */; };
+		5542FB651C928AE50027A3C1 /* Suits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542FB641C928AE50027A3C1 /* Suits.swift */; };
 		5542FB671C928B1E0027A3C1 /* Values.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5542FB661C928B1E0027A3C1 /* Values.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,7 @@
 		5542FB5E1C9287770027A3C1 /* Card.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		5542FB601C9287A20027A3C1 /* Deck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Deck.swift; sourceTree = "<group>"; };
 		5542FB621C9289620027A3C1 /* GameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
-		5542FB641C928AE50027A3C1 /* Suit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suit.swift; sourceTree = "<group>"; };
+		5542FB641C928AE50027A3C1 /* Suits.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Suits.swift; sourceTree = "<group>"; };
 		5542FB661C928B1E0027A3C1 /* Values.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Values.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -71,7 +71,7 @@
 				5542FB5E1C9287770027A3C1 /* Card.swift */,
 				5542FB601C9287A20027A3C1 /* Deck.swift */,
 				5542FB621C9289620027A3C1 /* GameManager.swift */,
-				5542FB641C928AE50027A3C1 /* Suit.swift */,
+				5542FB641C928AE50027A3C1 /* Suits.swift */,
 				5542FB661C928B1E0027A3C1 /* Values.swift */,
 			);
 			path = Crazy8TheGame;
@@ -136,7 +136,7 @@
 			files = (
 				5542FB611C9287A20027A3C1 /* Deck.swift in Sources */,
 				5542FB671C928B1E0027A3C1 /* Values.swift in Sources */,
-				5542FB651C928AE50027A3C1 /* Suit.swift in Sources */,
+				5542FB651C928AE50027A3C1 /* Suits.swift in Sources */,
 				5542FB561C92843C0027A3C1 /* main.swift in Sources */,
 				5542FB5F1C9287770027A3C1 /* Card.swift in Sources */,
 				5542FB631C9289620027A3C1 /* GameManager.swift in Sources */,
@@ -259,6 +259,7 @@
 				5542FB5B1C92843C0027A3C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

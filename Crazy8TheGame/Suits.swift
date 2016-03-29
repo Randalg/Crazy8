@@ -1,5 +1,5 @@
 //
-//  Suit.swift
+//  Suits.swift
 //  Crazy8TheGame
 //
 //  Created by Martin Gyupchanov on 11-03-16.

@@ -11,7 +11,7 @@ import Foundation
 class GameManager{
   
   var myDeck = Deck()
-  
+ 
   init(){
     myDeck = Deck()
   }
@@ -19,12 +19,16 @@ class GameManager{
   func manageGame(){
     
     print("Initial deck");
-    print(myDeck)
     
-    myDeck.shuffleDeck(&myDeck.deck)
-    
-    print("");
-    print("Reshuffled deck");
     print(myDeck)
+    for time in 1...10 {
+      myDeck.shuffleDeck(&myDeck.deck)
+      
+      print("");
+      print("Reshuffled deck: \(time)");
+      print(myDeck)
+    }
   }
+  
+  
 }

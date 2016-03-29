@@ -35,7 +35,7 @@ class Deck {
     
     for cell in 0..<array.count {
       
-      exchangeCell = getRandomNumber(minValue: 0, maxValue: array.count - 1)
+      exchangeCell = getRandomNumber(minValue: 0, maxValue: (array.count - 1))
       
       temp = array[exchangeCell]
       array[exchangeCell] = array[cell]
